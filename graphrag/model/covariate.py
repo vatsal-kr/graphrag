@@ -9,7 +9,7 @@ from typing import Any
 from graphrag.model.identified import Identified
 
 
-@dataclas
+@dc
 class Covariate(Identified):
     """
     A protocol for a covariate in the system.
